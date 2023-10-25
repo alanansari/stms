@@ -8,9 +8,9 @@ Student Task Management System
 - Error Handling
 - Typescript
 
-### Hosted Link : [link](link)
+### Hosted Link : [https://tghtask.onrender.com/](https://tghtask.onrender.com/)
 
-### API DOCUMENTATION: [here](https://documenter.getpostman.com/view/24068251/2s9YRDzVpt)
+### POSTMAN API DOCUMENTATION: [here](https://documenter.getpostman.com/view/24068251/2s9YRDzVpt)
 
 ## RUNNING THE SERVER
 
