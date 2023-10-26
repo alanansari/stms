@@ -1,5 +1,4 @@
-# TGH Task
-Student Task Management System
+# Student Task Management System
 
 ### Features
 - Authentication: using JWT
@@ -7,8 +6,6 @@ Student Task Management System
 - Endpoints for Admin Panel and Student Inerface
 - Error Handling
 - Typescript
-
-### Hosted Link : [https://tghtask.onrender.com/](https://tghtask.onrender.com/)
 
 ### POSTMAN API DOCUMENTATION: [here](https://documenter.getpostman.com/view/24068251/2s9YRDzVpt)
 
