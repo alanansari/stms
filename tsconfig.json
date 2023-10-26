@@ -7,6 +7,9 @@
         "outDir": "dist",
         "sourceMap": true,
         "noImplicitAny": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "allowImportingTsExtensions": true
     },
     "include": ["src/**/*"]
 }

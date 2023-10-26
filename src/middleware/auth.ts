@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
-import { ErrorHandler } from './errors';
-import { Admin,Student } from '../models';
+import { ErrorHandler } from './errors.ts';
+import { Admin,Student } from '../models/index.ts';
 
 const adminAuth = async (req: any, res: any, next: any) => {
     try{

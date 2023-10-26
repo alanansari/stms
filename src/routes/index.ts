@@ -1,5 +1,5 @@
-import studentRoutes from "./student.routes";
-import adminRoutes from "./admin.routes";
+import studentRoutes from "./student.routes.ts";
+import adminRoutes from "./admin.routes.ts";
 
 export {
     studentRoutes,

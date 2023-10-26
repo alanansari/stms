@@ -1,5 +1,5 @@
-import adminController from "./admin.controller";
-import studentController from "./student.controller";
+import adminController from "./admin.controller.ts";
+import studentController from "./student.controller.ts";
 
 export {
     adminController,

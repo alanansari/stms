@@ -1,6 +1,6 @@
-import {Student, Task} from '../models';
-import { ErrorHandler } from '../middleware/errors';
-import jv from '../utils/student.validations'
+import {Student, Task} from '../models/index.ts';
+import { ErrorHandler } from '../middleware/errors.ts';
+import jv from '../utils/student.validations.ts'
 import jwt from 'jsonwebtoken';
 
 const studentController = {

@@ -17,16 +17,6 @@ const studentSchema = new mongoose.Schema<Student>({
     email: {
         type: String, 
         unique: true,
-        validate: {
-            validator: async function (value: string) {
-                const existingStudent = await this.constructor.findOne({ email: value });
-                if (existingStudent && existingStudent.id !== this.id) {
-                    return false;
-                }
-                return true;
-            },
-            message: 'Email address is already in use'
-        }
     },
     department: String,
     password: String,

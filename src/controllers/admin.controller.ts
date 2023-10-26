@@ -1,7 +1,7 @@
-import { Admin,Student,Task } from "../models/index";
-import { ErrorHandler } from "../middleware/errors";
+import { Admin,Student,Task } from "../models/index.ts";
+import { ErrorHandler } from "../middleware/errors.ts";
 import jwt from "jsonwebtoken";
-import jv from "../utils/admin.validations";
+import jv from "../utils/admin.validations.ts";
 
 const adminController = {
     login: async (req: any, res: any, next: any) => {

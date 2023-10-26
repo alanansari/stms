@@ -1,6 +1,6 @@
 import express from 'express';
-import {studentController} from '../controllers';
-import { studentAuth } from '../middleware/auth';
+import {studentController} from '../controllers/index.ts';
+import { studentAuth } from '../middleware/auth.ts';
 
 const router = express.Router();
 

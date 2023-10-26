@@ -1,6 +1,6 @@
-import Student from './student.model';
-import Admin from './admin.model';
-import Task from './task.model';
+import Student from './student.model.ts';
+import Admin from './admin.model.ts';
+import Task from './task.model.ts';
 
 export {
     Student,
